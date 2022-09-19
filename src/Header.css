@@ -1,0 +1,65 @@
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height:60px;
+    position: sticky;
+    top:0;
+    z-index:100;
+}
+
+.header--logo{
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 18px;
+    object-fit: contain;   
+}
+
+.header--location{
+    color:white;
+    display: flex;
+    padding:10;
+}
+.header--option{
+    color: white;
+}
+.header--optionLineOne{
+    font-size: 12px;
+    font-weight: 500;
+    color: #ccc;
+    display: flex;
+
+}
+.header--optionLineTwo{
+    font-size: 15px;
+    font-weight: 700;
+}
+.header--search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header--searchInput{
+    padding: 10px;
+    height: 14px;
+    margin-left: 20px;
+    border: none;
+    width: 100%;
+}
+
+.header--searchIcon{
+    background-color: #FEBD69;
+    padding: 5px;
+    height: 23px;
+}
+
+
+
+
+
+
+
+
+
+
