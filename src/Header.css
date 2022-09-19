@@ -1,8 +1,8 @@
 .header{
-    background-color: black;
+    background-color:rgb(255, 0, 217);
     display: flex;
     align-items: center;
-    height:60px;
+    height:70px;
     position: sticky;
     top:0;
     z-index:100;
@@ -19,6 +19,7 @@
     color:white;
     display: flex;
     padding:10;
+    margin-right: -15px;
 }
 .header--option{
     color: white;
@@ -43,6 +44,7 @@
 .header--searchInput{
     padding: 10px;
     height: 14px;
+    border-radius: 2px;
     margin-left: 20px;
     border: none;
     width: 100%;
@@ -51,11 +53,34 @@
 .header--searchIcon{
     background-color: #FEBD69;
     padding: 5px;
-    height: 23px;
+    height: 24px;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+.header--nav{
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.header--option{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+.header--optionBasket{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
 
+.header--basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
